@@ -47,13 +47,21 @@ Dissolved oxygen, percentage saturation
 Orthophosphate, reactive as phosphorus
 Ammoniacal nitrogen as N
 
-## Project Structure
+## Repository Structure
 
-- `data/raw/`  original yearly datasets
-- `data/processed/` – merged and cleaned datasets
-- `reports/` – data-quality and risk-assessment reports
-- `scripts/` – data-cleaning and analysis scripts
-- `charts/` – charts and exported visualisations
+
+```text
+Water-Quality-and-Risk-Assessment/
+├── README.md              # Main project documentation
+├── .gitignore             # Files excluded from version control
+├── data/
+│   ├── raw/               # Original source files, not publicly uploaded
+│   └── processed/         # Cleaned and analysis-ready data
+├── analysis/              # Excel, SQL or other analytical work
+├── docs/                  # Methodology, data dictionary and limitations
+├── visuals/               # Exported charts, maps and figures
+└── dashboard/             # Dashboard files, screenshots and supporting notes
+```
 
 ## Data Quality Checks
 
