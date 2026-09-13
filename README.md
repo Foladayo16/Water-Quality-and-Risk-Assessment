@@ -82,7 +82,54 @@ Water-Quality-and-Risk-Assessment/
 └── dashboard/             # Dashboard files, screenshots and supporting notes
 ```
 
-## Data Quality Checks
+## Data Preparation and Cleaning
+
+The original files were combined into a single analysis-ready dataset covering the four selected River Thames sections and the 2021–2025 analysis period.
+
+The following preparation steps were completed:
+
+- Preserved the original downloaded files separately in `data/raw/`.
+- Combined records from different river sections and years.
+- Standardised the main column names across the source files.
+- Converted date fields into consistent date formats.
+- Created `sample_year` to support annual comparisons.
+- Retained `parameter_code` as a categorical identifier.
+- Checked measurement units across parameters and source files.
+- Created a numeric `measurement_value_cleaned` field for analysis.
+- Created detection-limit flags to distinguish censored measurements from ordinary numeric values.
+- Restricted the main analysis to 2021–2025 because the available 2020 records were incomplete.
+
+The processed dataset retains source-identification, location, sampling, parameter, measurement and unit fields to support traceability.
+
+### Handling Detection-Limit Values
+
+Some source measurements contain qualifiers such as `<` or `>`, rather than ordinary numeric values. These indicate that the reported concentration was below or above a stated detection or reporting limit.
+
+To preserve this information:
+
+- The original reported value was retained in `measurement_value`.
+- A numeric analysis value was stored in `measurement_value_cleaned`.
+- `below_detection_limit` identifies values reported below a stated limit.
+- `above_detection_limit` identifies values reported above a stated limit.
+
+Detection-limit records were therefore not treated automatically as missing values. They were retained with separate flags so that their treatment remains visible during analysis.
+
+### Data Quality Review
+
+Before interpreting water-quality trends, the combined dataset was reviewed for:
+
+Missing values
+Duplicate observations
+Invalid or inconsistent dates
+Non-numeric measurement values
+Below-detection and above-detection measurements
+Inconsistent units for the same parameter
+Unexpected or potentially extreme values
+Uneven coverage between river sections and years
+Differences in parameter availability and sampling frequency
+
+Potentially extreme measurements were not assumed to be errors automatically. Unusual records require investigation because they may represent either data-quality issues or genuine environmental events.
+
 
 ## Data Attribution
 Source: Environment Agency, Water Quality Explorer, accessed 31 July 2026.
