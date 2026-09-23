@@ -82,6 +82,12 @@ Water-Quality-and-Risk-Assessment/
 └── dashboard/             # Dashboard files, screenshots and supporting notes
 ```
 
+## Documentation
+
+Supporting project documentation
+
+docs/data_dictionary.md
+
 ## Data Preparation and Cleaning
 
 The original files were combined into a single analysis-ready dataset covering the four selected River Thames sections and the 2021–2025 analysis period.
