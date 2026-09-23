@@ -73,11 +73,15 @@ The exploratory analysis compares average annual measurements across the four ri
 Annual averages are interpreted alongside sampling coverage because the number and timing of observations differ between river sections and years. The analysis identifies patterns for further investigation and does not represent a formal regulatory water-quality classification.
 Further details are provided in the docs/analysis_methodology.md.
 
-## Preliminary Finding
+## Preliminary Findings
 
-Average pH remained relatively stable across the monitored river sections between 2021 and 2025, with only minor differences between years and locations. A small reduction was observed in some sections during 2023, but no sustained portfolio-wide change was identified.
+## Preliminary Findings
 
-Detailed findings are documented in `docs/findings.md`.
+pH: Annual averages remained relatively stable, with only minor variation between years and river sections.
+Dissolved oxygen saturation: Annual averages remained relatively high overall, although Egham to Teddington recorded a temporary reduction in 2023 before recovering.
+
+Detailed findings are documented in docs/findings.md.
+
 
 ## Repository Structure
 ```text
