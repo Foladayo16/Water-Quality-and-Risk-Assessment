@@ -66,9 +66,20 @@ Orthophosphate, reactive as phosphorus
 Ammoniacal nitrogen as N
 ```
 
+## Analysis Approach
+
+The exploratory analysis compares average annual measurements across the four river sections from 2021 to 2025. Each parameter is analysed separately and only records with matching measurement units are combined.
+
+Annual averages are interpreted alongside sampling coverage because the number and timing of observations differ between river sections and years. The analysis identifies patterns for further investigation and does not represent a formal regulatory water-quality classification.
+Further details are provided in the docs/analysis_methodology.md.
+
+## Preliminary Finding
+
+Average pH remained relatively stable across the monitored river sections between 2021 and 2025, with only minor differences between years and locations. A small reduction was observed in some sections during 2023, but no sustained portfolio-wide change was identified.
+
+Detailed findings are documented in `docs/findings.md`.
+
 ## Repository Structure
-
-
 ```text
 Water-Quality-and-Risk-Assessment/
 ├── README.md              # Main project documentation
@@ -87,6 +98,8 @@ Water-Quality-and-Risk-Assessment/
 Supporting project documentation
 
 docs/data_dictionary.md
+docs/analysis_methodology.md
+docs/findings.md
 
 ## Data Preparation and Cleaning
 
