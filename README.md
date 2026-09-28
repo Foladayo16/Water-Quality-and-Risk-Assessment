@@ -75,8 +75,6 @@ Further details are provided in the docs/analysis_methodology.md.
 
 ## Preliminary Findings
 
-## Preliminary Findings
-
 pH: Annual averages remained relatively stable, with only minor variation between years and river sections.
 
 Dissolved oxygen saturation: Annual averages remained relatively high overall, although Egham to Teddington recorded a temporary reduction in 2023 before recovering.
@@ -84,6 +82,9 @@ Dissolved oxygen saturation: Annual averages remained relatively high overall, a
 Orthophosphate: Concentrations generally declined across much of the study area, although increases in some sections during 2025 indicate continued variability.
 Detailed findings are documented in docs/findings.md.
 
+Ammoniacal nitrogen: Annual averages declined across the monitored sections and generally stabilised at lower concentrations during the later study years.
+
+Detailed findings are documented in [docs/findings.md](docs/findings.md).
 
 ## Repository Structure
 ```text
@@ -103,9 +104,9 @@ Water-Quality-and-Risk-Assessment/
 
 Supporting project documentation
 
-docs/data_dictionary.md
-docs/analysis_methodology.md
-docs/findings.md
+[docs/data_dictionary.md]docs/data_dictionary.md
+[docs/analysis_methodology.md]docs/analysis_methodology.md
+[docs/findings.md]docs/findings.md
 
 ## Data Preparation and Cleaning
 

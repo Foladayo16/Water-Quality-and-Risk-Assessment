@@ -67,10 +67,24 @@ Annual averages may conceal seasonal peaks, individual elevated measurements and
 
 The results indicate patterns in the available monitoring data and do not establish the sources or causes of phosphorus concentrations.
 
-### Visualisation
+## Ammoniacal Nitrogen as Nitrogen
 
-A line chart comparing annual average orthophosphate concentrations across the four river sections will be added to `visuals/`.
+Average ammoniacal nitrogen concentrations decreased across the monitored river sections between 2021 and 2025, before generally stabilising at lower levels.
 
-Planned filename:
+The main observations were:
 
-`visuals/orthophosphate_by_river_section.png`
+Cookham to Egham recorded the largest reduction, decreasing from 0.24 mg/L in 2021 to 0.04 mg/L by 2023.
+Egham to Teddington decreased from 0.14 mg/L in 2021 and subsequently ranged between approximately 0.05 and 0.08 mg/L.
+Reading to Cookham remained comparatively low, with annual averages between approximately 0.04 and 0.06 mg/L.
+Wallingford to Caversham recorded an average of approximately 0.04 mg/L in the available results from 2023 onwards.
+The overall pattern indicates lower average concentrations during the later years of the study period.
+
+### Portfolio Insight
+
+> Ammoniacal nitrogen concentrations declined across the monitored river sections and subsequently remained comparatively low. The largest reduction occurred at Cookham to Egham, while Reading to Cookham and Wallingford to Caversham displayed consistently low annual averages.
+
+### Interpretation Caution
+
+Annual averages may conceal individual elevated measurements, seasonal variation and differences in sampling coverage.
+
+The observed reduction represents a pattern in the available monitoring data. The analysis does not establish the causes of the change or constitute a formal regulatory assessment.
