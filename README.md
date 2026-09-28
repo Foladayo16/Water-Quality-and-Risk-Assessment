@@ -84,7 +84,7 @@ Detailed findings are documented in docs/findings.md.
 
 Ammoniacal nitrogen: Annual averages declined across the monitored sections and generally stabilised at lower concentrations during the later study years.
 
-Detailed findings are documented in [docs/findings.md](docs/findings.md).
+Detailed findings are documented in [Exploratory Analysis Findings](docs/findings.md).
 
 ## Repository Structure
 ```text
@@ -104,9 +104,11 @@ Water-Quality-and-Risk-Assessment/
 
 Supporting project documentation
 
-[docs/data_dictionary.md]docs/data_dictionary.md
-[docs/analysis_methodology.md]docs/analysis_methodology.md
-[docs/findings.md]docs/findings.md
+## Supporting Project Documentation
+
+[Data Dictionary](docs/data_dictionary.md)
+[Analysis Methodology](docs/analysis_methodology.md)
+[Exploratory Analysis Findings](docs/findings.md)
 
 ## Data Preparation and Cleaning
 
@@ -156,6 +158,26 @@ Differences in parameter availability and sampling frequency
 
 Potentially extreme measurements were not assumed to be errors automatically. Unusual records require investigation because they may represent either data-quality issues or genuine environmental events.
 
+## Limitations
+
+Sampling frequency differs between river sections and years.
+Some months and location-year combinations have no available observations.
+Parameter availability is not consistent across the full dataset.
+Annual averages may conceal seasonal variation and individual extreme measurements.
+Detection-limit substitutions can influence calculated averages.
+Geographical differences may reflect monitoring coverage as well as environmental variation.
+The analysis identifies associations and patterns but does not establish their causes.
+The findings do not represent a formal regulatory water-quality classification.
+
+## Recommendations
+
+Continue monitoring orthophosphate where concentrations increased during 2025.
+Investigate unusual annual results using monthly and site-level observations.
+Compare annual averages with observation counts before drawing conclusions.
+Expand the analysis to include seasonal patterns where data coverage is sufficient.
+Document and validate all thresholds before creating the proposed risk score.
+Retain detection-limit flags in any future dashboard or statistical analysis.
+Prioritise transparent reporting of missing months and uneven sampling coverage.
 
 ## Data Attribution
 Source: Environment Agency, Water Quality Explorer, accessed 31 July 2026.
