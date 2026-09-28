@@ -78,8 +78,10 @@ Further details are provided in the docs/analysis_methodology.md.
 ## Preliminary Findings
 
 pH: Annual averages remained relatively stable, with only minor variation between years and river sections.
+
 Dissolved oxygen saturation: Annual averages remained relatively high overall, although Egham to Teddington recorded a temporary reduction in 2023 before recovering.
 
+Orthophosphate: Concentrations generally declined across much of the study area, although increases in some sections during 2025 indicate continued variability.
 Detailed findings are documented in docs/findings.md.
 
 

@@ -43,3 +43,34 @@ The main observations were:
 The figures represent annual averages calculated from available observations. Annual averages may conceal short-term low-oxygen events, seasonal variation and differences in sampling frequency.
 
 The results should therefore not be interpreted as evidence that every individual observation or monitoring period had equally favourable oxygen conditions.
+
+
+## Orthophosphate, Reactive as Phosphorus
+
+Average orthophosphate concentrations generally declined across most monitored river sections between 2021 and 2025, although the pattern was not consistent everywhere.
+
+The main observations were:
+
+- Cookham to Egham decreased from 0.23 mg/L in 2021 to 0.14 mg/L in 2025.
+- Egham to Teddington decreased from 0.21 mg/L in 2021 to 0.13 mg/L in 2024, before increasing to 0.16 mg/L in 2025.
+- Reading to Cookham remained comparatively stable, ranging from approximately 0.11 to 0.16 mg/L.
+- Wallingford to Caversham decreased to 0.14 mg/L in 2024 but increased to 0.18 mg/L in 2025.
+- The 2025 increases at Egham to Teddington and Wallingford to Caversham warrant continued monitoring.
+
+### Portfolio Insight
+
+Orthophosphate concentrations show an overall improvement across much of the study area, particularly at Cookham to Egham. However, increases recorded in some river sections during 2025 indicate that nutrient pressures remain variable and should continue to be monitored.
+
+### Interpretation Caution
+
+Annual averages may conceal seasonal peaks, individual elevated measurements and differences in sampling frequency.
+
+The results indicate patterns in the available monitoring data and do not establish the sources or causes of phosphorus concentrations.
+
+### Visualisation
+
+A line chart comparing annual average orthophosphate concentrations across the four river sections will be added to `visuals/`.
+
+Planned filename:
+
+`visuals/orthophosphate_by_river_section.png`
